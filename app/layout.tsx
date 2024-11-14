@@ -7,7 +7,7 @@ import { Footer } from "@/components/footer";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "SchemAPI",
+  title: "schemapi",
   metadataBase: new URL("https://schemapi.vercel.app/"),
   description:
     "A powerful and versatile tool designed to generate mock data for prototype systems.",

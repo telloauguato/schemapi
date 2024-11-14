@@ -1,0 +1,37 @@
+---
+title: Command Add
+description: Command Add by schemapi.
+---
+
+The add command allows you to add or update the content of an existing schema, configuring its properties as needed. This command is useful for customizing and enriching a schema with varied data.
+
+```bash
+npx schemapi add schemaName
+```
+
+## Example Usage
+
+To use the add command, run the following:
+
+```bash
+npx schemapi add user
+```
+
+This command starts an interactive process where you can:
+
+Choose a key and content type: Define the key name and the associated content type. Content types include address, email, name, number, options, pattern, schema, username, and uuid.
+
+Configure the content:
+
+Depending on the content type, you can insert additional properties, such as:
+
+- For emails: define a specific domain.
+- For numbers: specify maximum and minimum values.
+- For patterns: define characters with restrictions (e.g., numeric, alphabetic).
+- For options: add a list of possible values and configure its length.
+
+Add optional properties:
+
+Depending on the chosen content type, you can add optional properties like prefix, suffix, decimal, max, min, bowl, negative, and more.
+
+Save the schema: The schema is updated and saved to the .schema/<schema>.schema.json file with the newly configured content.

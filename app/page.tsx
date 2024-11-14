@@ -15,10 +15,10 @@ export default function Home() {
         <MoveUpRightIcon className="w-4 h-4 font-extrabold" />
       </Link>
       <h1 className="text-3xl font-bold mb-4 sm:text-7xl">
-        SchemAPI
+        A powerful and versatile tool designed to generate mock data for prototype systems.
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
-        A powerful and versatile tool designed to generate mock data for prototype systems.
+        A tool for defining and managing data schemas for applications, enabling the creation of simulated data for testing, prototyping, and development.
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
